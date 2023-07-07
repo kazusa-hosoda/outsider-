@@ -1,0 +1,133 @@
+.header{
+    text-align: center;
+}
+  
+.選択{
+    letter-spacing: -.1em;
+    font-size: 20px;
+    margin-bottom: 0;
+    list-style: none;
+    margin: 0 auto;
+    color: #474747;
+    background: whitesmoke;/*背景色*/
+    border-left: double 7px #ff0000;/*左線*/
+    border-right: double 7px #ff0000;/*右線*/
+}
+  
+.選択 li{
+    letter-spacing: normal;
+    display: inline-block;
+    width: calc(100%/6);
+    margin: 0; 
+    padding: 0;
+}
+  
+.選択 li a{
+    display: block;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    padding: 12px 0px;
+    text-transform: none;
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+  
+.footer a {
+    color: #8e5252;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #00ff51;
+}
+  
+.footer hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #797171;
+}
+  
+.footer address {
+    font-style: normal;
+    color: #ffffff;
+}
+  
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 5rem;
+    margin-bottom: 1.5rem;
+}
+  
+.footer {
+    padding: 2rem;
+    font-size: 15px;
+    color: #ff0000;
+    background: #000000;
+}
+  
+.footer__navi-heading {
+    font-weight: 600;
+}
+  
+.footer__logo {
+    display: inline-block;
+    margin-bottom: 1.5rem;
+}
+  
+.footer__navi li {
+    margin-bottom: 0.75rem;
+}
+  
+.footer__address {
+    margin-bottom: 2rem;
+}
+  
+.footer__address a {
+    text-decoration: underline;
+}
+  
+@media (min-width: 768px) {
+    .md-flex {
+      display: flex;
+    }
+  
+    .md-justify-between {
+      justify-content: space-between;
+    }
+  
+    .grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+    
+    .footer__address a {
+      text-decoration: none;
+      pointer-events: none;
+    }
+}
+  
+@media (min-width: 1024px) {
+    .lg-flex {
+      display: flex;
+    }
+}
+  
+.footer p {
+    text-align: center;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: column;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
